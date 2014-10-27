@@ -1,0 +1,68 @@
+<nav class="kr-navbar">
+    <a class="kr-navbar-brand kr-hidden-small" href="#">Prefeitura Municípal São Caetano do Sul</a>
+    <a href="#offcanvas" class="kr-navbar-toggle kr-visible-small" data-kr-offcanvas></a>
+    <div class="kr-navbar-brand kr-navbar-center kr-visible-small">SCS</div>
+    <div class="kr-navbar-flip">
+        <ul class="kr-navbar-nav kr-hidden-small">
+
+            <li>
+                <div class="color-panel hidden-phone">
+                    <div class="color-mode-icons icon-color"></div>
+                    <div class="color-mode-icons icon-color-close"></div>
+                    <div class="color-mode">
+                        <p>Mudar Tema</p>
+                        <ul class="inline">
+                            <li class="color-default current color-default" data-style="default"></li>
+                            <li class="color-gradient" data-style="gradient"></li>
+                            <li class="color-flat" data-style="flat"></li>
+                            <li class="color-green" data-style="green"></li>
+                        </ul>
+                        <label class="hidden-phone">
+                            <input type="checkbox" class="header" checked value=""/>
+                            <span class="color-mode-label">Cabeçalho Fixo</span>
+                        </label>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="#rapido" data-kr-modal><span class="kr-icon-lightbulb-o"></span> Acesso Rápido</a>
+            </li>
+            <li class="kr-parent" data-kr-dropdown="{mode:'click'}">
+                <a><span class="kr-icon-user"></span> Nome de Usuário <i class="kr-icon-caret-down"></i></a>
+
+                <div class="kr-dropdown kr-dropdown-navbar">
+                    <ul class="kr-nav kr-nav-navbar">
+                        <img class="kr-align-center" src="images/user.jpg" alt="usuário">
+                        <li class="kr-nav-header"><span class="kr-icon-cog"></span> Dados do Usuário</li>
+                        <li>
+                            <a href="#my-id" data-kr-modal>Editar Perfil</a>
+                        </li>
+                        <li>
+                            <a href="#">Editar Favoritos</a>
+                        </li>
+                        <li class="kr-nav-header"><span class="kr-icon-building-o"></span> Secretarias</li>
+                        <li>
+                            <div data-kr-tooltip="{pos:'left'}" title="Click para alterar secretaria"
+                                 class="kr-form-select" data-kr-form-select="{target:'a'}" style="margin-left:20px">
+                                <a></a>
+                                <select>
+                                    <option value="">Secretaria da Saúde</option>
+                                    <option value="">Secretaria da Educação</option>
+                                    <option value="">Secretaria do Esporte</option>
+                                    <option value="">Secretaria do Trabalho</option>
+                                    <option value="">Secretaria de Obras</option>
+                                    <option value="">Secretaria de Cultura</option>
+                                </select>
+                            </div>
+                        </li>
+                        <li class="kr-nav-divider"></li>
+                        <li>
+                            <a href="#/"><span class="kr-icon-power-off"></span> Sair do Sistema</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#login">Entrar</a></li>
+        </ul>
+    </div>
+</nav>

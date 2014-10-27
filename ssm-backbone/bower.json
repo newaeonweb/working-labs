@@ -1,0 +1,23 @@
+{
+  "name": "ssm-backbone",
+  "version": "0.0.1",
+  "authors": [
+    "f.monteiro <fernando@newaeonweb.com.br>"
+  ],
+  "description": "Teste SSM com Backbone.js",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "backbone": "~1.1.2"
+  }
+}

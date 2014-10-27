@@ -1,0 +1,171 @@
+				<div class="footer">
+						<div class="kr-container kr-container-center kr-text-center">
+								<p>SSM &copy; 2014. - Todos os Direitos Reservados</p>
+						</div>
+				</div> 
+				<div id="offcanvas" class="kr-offcanvas">
+						<div class="kr-offcanvas-bar">
+								<ul class="kr-nav kr-nav-offcanvas">
+										<li>
+												<a href="#panel">GED</a>
+										</li>
+										<li>
+												<a href="#">Administrativo</a>
+										</li>
+										<li>
+												<a href="#">Painel Dinâmico</a>
+										</li>
+										<li>
+												<a href="#">Editar Usuário</a>
+										</li>
+										<li>
+												<a href="#">Sair do Sistema</a>
+										</li>
+								</ul>
+						</div>
+				</div>
+								<div id="my-id" class="kr-modal">
+						<div class="kr-modal-dialog">
+								<a class="kr-modal-close kr-close"></a>
+								<h2> <span class="kr-icon-cog"></span> Configurações</h2>
+								<p>Dados do Usuário</p>
+								<ul class="kr-tab" data-kr-tab="{connect:'#tab-content'}">
+						<li class="kr-active"><a data-target="@">Essenciais</a></li>
+						<li><a data-target="@">Preferências</a></li>
+						<li><a data-target="@">Permissões</a></li>
+					</ul>
+							<div id="tab-content" class="kr-switcher kr-margin">
+						<div class="kr-active">
+						<div class="kr-grid" data-kr-grid-margin>
+							<div class="kr-col-medium-2-3">
+								<form class="kr-form">
+									<fieldset>
+										<div class="kr-form-row">
+										<label for="">Nome de Usuário:</label>
+										<input type="text" placeholder="Nome de Usuário" class="kr-col-1-1">
+										</div>
+										<div class="kr-form-row">
+										<label for="">Email:</label>
+										<input type="text" placeholder="nmemail@test.com.br" class="kr-col-1-1">
+										</div>
+										<div class="kr-form-row">
+											<label for="">Senha:</label>
+											<select id="trocar">
+												<option value="">Manter a senha atual</option>
+												<option value="" id="nova">Alterar senha</option>
+											</select>
+										</div>
+										<div class="kr-form-row" id="senha" style="display:none" >
+											<fieldset data-kr-margin>
+												<legend>Alterar Senha</legend>
+												<input type="text" placeholder="Digite a nova senha">
+												<input type="password" placeholder="Repita a nova senha">
+												</fieldset>
+										</div>
+									</fieldset>
+								</form>
+							</div>
+							<div class="kr-col-medium-2-6">
+								<img class="kr-align-center" src="images/user.jpg" alt="usuário">
+								<a href="#" class="kr-align-center kr-text-center"> Alterar Foto</a>
+							</div>
+						</div>
+						</div>
+						<div>
+							<form class="kr-form">
+							<table class="kr-table kr-table-hover">
+							<caption>Configuração de Preferências</caption>
+							<tbody>
+								<tr>
+									<td>Receber alertas pos email?</td>
+									<td>
+										<select class="kr-align-right">
+										<option>Sim</option>
+										<option>Não</option>
+										</select>
+									</td>
+								</tr>
+								<tr>
+									<td>Enviar alertas para todos Usuários?</td>
+									<td>
+										<select class="kr-align-right">
+										<option>Sim</option>
+										<option>Não</option>
+										</select>
+									</td>
+								</tr>
+								<tr>
+									<td>Manter favoritos atualizados?</td>
+									<td>
+										<select class="kr-align-right">
+										<option>Sim</option>
+										<option>Não</option>
+										</select>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+							
+						</form>
+						</div>
+						<div>
+						<form class="kr-form">
+							<table class="kr-table kr-table-hover">
+							<caption>Permissões de Acesso aos relatórios e secretarias</caption>
+							<tbody>
+								<tr>
+									<td>Este é um usuário administrador?</td>
+									<td>
+										<select class="kr-align-right">
+										<option>Sim</option>
+										</select>
+									</td>
+								</tr>
+								<tr>
+									<td>Acesso automatico a todos relatórios?</td>
+									<td>
+										<select class="kr-align-right">
+										<option>Sim</option>
+										<option>Não</option>
+										</select>
+									</td>
+								</tr>
+								<tr>
+									<td>Acesso a criação de paineis?</td>
+									<td>
+										<select class="kr-align-right">
+										<option>Sim</option>
+										<option>Não</option>
+										</select>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+							
+					</form> 
+						</div>
+				</div>
+							<hr class="kr-divider">
+							<a class="kr-button kr-button-success" href="#" id="salvar">Salvar Alteração</a> ou <a class="" href="">Cancelar</a>
+						</div>
+				</div>
+				<div id="rapido" class="kr-modal">
+						<div class="kr-modal-dialog">
+								<a class="kr-modal-close kr-close"></a>
+								<h2> Acesso Rápido</h2>
+								<table class="kr-table">
+						<caption>Preferências</caption>
+					<tbody>
+						<tr>
+							<td><div class="kr-panel kr-panel-box"><a href="" ><i class="kr-icon-dashboard kr-icon-large"></i> Painel</a></div></td>
+							<td><div class="kr-panel kr-panel-box"><a href="" ><i class="kr-icon-cog kr-icon-large"></i> Configurações</a></div></td>
+						</tr>
+						<tr>
+							<td><div class="kr-panel kr-panel-box"><a href="" ><i class="kr-icon-file-text kr-icon-large"></i> Relátorios</a></div></td>
+							<td><div class="kr-panel kr-panel-box"><a href="" ><i class="kr-icon-tasks kr-icon-large"></i> GED</a></div></td>
+						</tr>
+					</tbody>
+				</table>
+								
+						</div>
+				</div> 

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Krack</title>
+        <link rel="shortcut icon" href="docs/images/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon-precomposed" href="docs/images/apple-touch-icon.png">
+        <link rel="stylesheet" type="text/css" href="css/krack.default.min.css" id="style_color">
+        <link rel="stylesheet" type="text/css" href="css/addons/krack.addons.min.css">
+    </head>
+    <style>
+    html {
+        position: relative;
+        min-height: 100%;
+    }
+    body {
+        /* Margin bottom by footer height */
+        margin-bottom: 40px;
+    }
+    .footer {
+    	position: absolute;
+    	bottom: 0;
+    	width: 100%;
+    	/* Set the fixed height of the footer here */
+    	height: 40px;
+    	background-color: #2f445d;
+    }
+		.footer p {
+			padding-top: 10px;
+			margin: 0;
+			color: #ffffff;
+		}
+	select {
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+	</style>
+	<body>
+        <nav class="kr-navbar">                      
+           <a class="kr-navbar-brand kr-hidden-small" href="#">Sala de Situação Gerencial</a>
+            <div class="kr-navbar-brand kr-navbar-center kr-visible-small">Sâo Caetano do Sul</div>
+                <div class="kr-navbar-flip">
+                   <ul class="kr-navbar-nav kr-hidden-small">
+						<li>
+							<a href="#rapido" data-kr-modal><span class="kr-icon-lock"></span> Entrar</a>
+						</li>
+                	</ul>                   
+                </div>
+        </nav>
+        <section>
+        <div class="kr-vertical-align kr-text-center kr-height-1-1">
+            <div class="kr-vertical-align-middle" style="width: 300px;margin-top:50px;">
+
+               <img class="kr-margin-bottom" width="140" height="120" src="images/sao-caetano-do-sul.png" alt="">
+                
+                <form class="kr-panel kr-panel-box kr-form">
+                    <div class="kr-form-row">
+                        <input class="kr-col-1-1 kr-form-large" type="text" placeholder="Nome de Usuário">
+                    </div>
+                    <div class="kr-form-row">
+                        <input class="kr-col-1-1 kr-form-large" type="text" placeholder="Senha">
+                    </div>
+                    <div class="kr-form-row">
+                        <a class="kr-col-1-1 kr-button kr-button-primary kr-button-large" href="./index.html">Entrar</a>
+                    </div>
+                    <div class="kr-form-row kr-text-small">
+                        <label class="kr-float-left"><input type="checkbox"> Lembrar</label>
+                        <a class="kr-float-right kr-link kr-link-muted" href="#">Esqueci a senha?</a>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+        	
+		</section>        
+        <div class="footer">
+            <div class="kr-container kr-container-center kr-text-center">
+                <p>SSM &copy; 2014. - Todos os Direitos Reservados</p>
+            </div>
+        </div>  
+    </body>
+    <script src="js/libs/jquery.js"></script>
+    <script src="js/libs/backstretch.js"></script>
+    <script src="js/libs/underscore-1.7.0.js"></script>
+    <script src="js/libs/backbone-1.1.2.js"></script>
+ 
+
+    <script src="js/libs/krack.min.js"></script>
+    <script src="js/addons/form-select.min.js"></script>
+    <script src="js/addons/notify.min.js"></script>
+    <script src="js/addons/sortable.min.js"></script>
+    <script>
+		$.backstretch([
+      		"images/scs.jpg"
+    		, "images/scs3.jpg"
+  		], {duration: 5000, fade: 750});
+	</script>
+</html>   

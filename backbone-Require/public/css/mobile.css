@@ -1,0 +1,7 @@
+/* mobile.css */
+@import url("jquery.mobile.css");
+@import url("commonstyles.css");
+
+body {
+    background-color: #000;
+}
